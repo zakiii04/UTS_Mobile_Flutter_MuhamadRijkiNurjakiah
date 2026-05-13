@@ -7,7 +7,7 @@ Aplikasi ini menampilkan daftar produk elektronik dengan fitur autentikasi, prof
 
 ---
 
-# ✅ Fitur & Penjelasan (Sesuai Soal UTS)
+# ✅ Fitur & Penjelasan
 
 ---
 
