@@ -3,7 +3,7 @@
 ## 📱 Tentang Aplikasi
 
 **Tokopadia** adalah aplikasi e-commerce mobile yang dibangun menggunakan **Flutter**.
-Aplikasi ini menampilkan daftar produk elektronik dengan fitur autentikasi, profil pengguna yang dapat diedit, serta navigasi antar halaman yang lengkap dan interaktif.
+Aplikasi ini menampilkan daftar produk elektronik dengan fitur autentikasi, pencarian produk, profil pengguna yang dapat diedit, serta navigasi antar halaman yang lengkap dan interaktif.
 
 ---
 
@@ -63,10 +63,26 @@ Menampilkan katalog produk secara dinamis di halaman utama.
 * `GridView`
 * `Card`
 * `Container`
+* `TextField`
 
 ### 🎯 Interaksi
 
-Pengguna dapat menekan produk untuk melihat halaman detail produk lengkap.
+Pengguna dapat:
+
+* Melihat daftar produk elektronik
+* Menekan produk untuk melihat detail produk
+* Mencari produk menggunakan fitur search
+
+### 🔍 Fitur Search Produk
+
+Fitur search digunakan untuk memudahkan pengguna mencari produk berdasarkan nama produk secara real-time.
+
+### ⚙️ Implementasi Search
+
+* `TextField`
+* `onChanged`
+* `setState`
+* Filtering List Data
 
 ### 📸 Screenshot
 
@@ -122,7 +138,7 @@ Fitur tambahan untuk meningkatkan pengalaman pengguna aplikasi.
 
 # 📂 Struktur Project
 
-```text
+```text id="4z6y1q"
 lib/
 ├── data/           # Data dummy produk
 ├── models/         # Model data (Product, User)
@@ -143,6 +159,19 @@ lib/
 * Material Design
 * Navigator
 
+---
+
+# ☁️ Google Drive Project
+
+📁 Link Google Drive:
+https://drive.google.com/drive/folders/1Q4B7lAynqGCwnafX72gAYQ9ydL0Jl415?usp=sharing
+
+Isi folder:
+
+* Source Code
+* APK Project
+* Screenshots
+* Dokumentasi Tambahan
 
 ---
 
