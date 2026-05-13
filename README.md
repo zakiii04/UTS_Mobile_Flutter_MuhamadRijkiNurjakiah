@@ -151,14 +151,4 @@ lib/
 
 ---
 
-# 🛠️ Teknologi Yang Digunakan
-
-* Flutter
-* Dart
-* Provider
-* Material Design
-* Navigator
-
----
-
 <p align="center">© 2026 Muhamad Rijki Nurjakiah</p>
