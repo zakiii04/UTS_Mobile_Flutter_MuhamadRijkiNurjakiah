@@ -193,7 +193,28 @@ class _LoginPageState extends State<LoginPage> with TickerProviderStateMixin {
                       ),
                     ),
 
-                    const SizedBox(height: 20),
+                    const SizedBox(height: 24),
+
+                    // Register Link
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        const Text('Belum punya akun? ',
+                            style: TextStyle(color: AppColors.textSecondary, fontSize: 14)),
+                        GestureDetector(
+                          onTap: () => Navigator.pushNamed(context, '/register'),
+                          child: const Text(
+                            'Daftar Sekarang',
+                            style: TextStyle(
+                                color: AppColors.accentGreen,
+                                fontSize: 14,
+                                fontWeight: FontWeight.w800),
+                          ),
+                        ),
+                      ],
+                    ),
+
+                    const SizedBox(height: 32),
 
                     // Quick Login Buttons
                     Column(
@@ -250,28 +271,6 @@ class _LoginPageState extends State<LoginPage> with TickerProviderStateMixin {
                       ],
                     ),
 
-                    const SizedBox(height: 24),
-
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        const Text('Belum punya akun? ',
-                            style: TextStyle(color: AppColors.textSecondary, fontSize: 14)),
-                        GestureDetector(
-                          onTap: () => Navigator.pushNamed(context, '/register'),
-                          child: ShaderMask(
-                            shaderCallback: (b) => const LinearGradient(
-                              colors: [AppColors.accentBlue, AppColors.accentPurple],
-                            ).createShader(b),
-                            child: const Text(
-                              'Daftar Sekarang',
-                              style: TextStyle(
-                                  color: Colors.white, fontSize: 14, fontWeight: FontWeight.w700),
-                            ),
-                          ),
-                        ),
-                      ],
-                    ),
                     const SizedBox(height: 40),
                   ],
                 ),
