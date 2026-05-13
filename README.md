@@ -161,18 +161,4 @@ lib/
 
 ---
 
-# ☁️ Google Drive Project
-
-📁 Link Google Drive:
-https://drive.google.com/drive/folders/1Q4B7lAynqGCwnafX72gAYQ9ydL0Jl415?usp=sharing
-
-Isi folder:
-
-* Source Code
-* APK Project
-* Screenshots
-* Dokumentasi Tambahan
-
----
-
 <p align="center">© 2026 Muhamad Rijki Nurjakiah</p>
